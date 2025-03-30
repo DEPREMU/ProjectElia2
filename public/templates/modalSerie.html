@@ -1,0 +1,74 @@
+<div class="modal" id="serie-modal">
+  <div class="modal-content">
+    <span class="close-button">&times;</span>
+    <h2 id="series-name">{{name}}</h2>
+    <img
+      id="series-poster"
+      src="https://image.tmdb.org/t/p/w500/{{poster_path}}"
+      alt="Series Poster"
+    />
+    <p id="series-overview">{{overview}}</p>
+    <ul>
+      <li>
+        <strong>First Air Date:</strong>
+        <span id="series-first-air-date">{{first_air_date}}</span>
+      </li>
+      <li>
+        <strong>Last Air Date:</strong>
+        <span id="series-last-air-date">{{last_air_date}}</span>
+      </li>
+      <li>
+        <strong>Original Language:</strong>
+        <span id="series-original-language">{{original_language}}</span>
+      </li>
+      <li>
+        <strong>Popularity:</strong>
+        <span id="series-popularity">{{popularity}}</span>
+      </li>
+      <li>
+        <strong>Vote Average:</strong>
+        <span id="series-vote-average">{{vote_average}}</span>
+      </li>
+      <li>
+        <strong>Vote Count:</strong>
+        <span id="series-vote-count">{{vote_count}}</span>
+      </li>
+      <li>
+        <strong>Origin Country:</strong>
+        <span id="series-origin-country">{{origin_country}}</span>
+      </li>
+      <li>
+        <strong>Genres:</strong>
+        <span id="series-genres">{{genres}}</span>
+      </li>
+      <li>
+        <strong>Status:</strong>
+        <span id="series-status">{{status}}</span>
+      </li>
+      <li>
+        <strong>Tagline:</strong>
+        <span id="series-tagline">{{tagline}}</span>
+      </li>
+      <li>
+        <strong>Number of Seasons:</strong>
+        <span id="series-number-of-seasons">{{number_of_seasons}}</span>
+      </li>
+      <li>
+        <strong>Number of Episodes:</strong>
+        <span id="series-number-of-episodes">{{number_of_episodes}}</span>
+      </li>
+      <li>
+        <strong>Spoken Languages:</strong>
+        <span id="series-spoken-languages">{{spoken_languages}}</span>
+      </li>
+      <li>
+        <strong>Homepage:</strong>
+        <a id="series-homepage" href="{{homepage}}" target="_blank"
+          >{{homepage}}</a
+        >
+      </li>
+    </ul>
+    <h2>Playlists related</h2>
+    <div class="playlists-container">{{playlists}}</div>
+  </div>
+</div>

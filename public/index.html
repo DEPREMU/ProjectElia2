@@ -1,0 +1,36 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Series</title>
+    <link rel="stylesheet" href="css/stylesHome.css" />
+    <link rel="stylesheet" href="css/common/modal.css" />
+    <link rel="stylesheet" href="css/common/stylesCardSchedule.css" />
+  </head>
+  <body>
+    <header>
+      <h1>Series</h1>
+      <div class="search-container">
+        <select id="genre-select" class="genre-select">
+          <option value="all" selected>Sort</option>
+          {{optionsGenres}}
+        </select>
+        <input
+          type="text"
+          class="search-input"
+          id="search-input"
+          placeholder="Search for a movie or series"
+        />
+      </div>
+    </header>
+    <main class="main-container">
+      <div class="cards-container">{{firstPage}}</div>
+      <div class="schedule-container">{{schedule}}</div>
+    </main>
+
+    <script type="module" src="scripts/common/functions.js"></script>
+    <script type="module" src="scripts/common/modal.js"></script>
+    <script type="module" src="scripts/index.js"></script>
+  </body>
+</html>

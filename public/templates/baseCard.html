@@ -1,0 +1,22 @@
+<div class="card" onclick="openModalSerie('{{card.id}}')">
+  <img
+    src="https://image.tmdb.org/t/p/w500{{card.poster_path}}"
+    class="img-card"
+    onerror="this.onerror=null; this.src='https://via.placeholder.com/500x750?text=Image+not+available'"
+    alt="{{card.name}}"
+  />
+  <div class="card-info">
+    <h3>{{card.name}}</h3>
+    <p class="overview">
+      <strong> Overview: </strong>
+      {{card.overview}}
+    </p>
+    <div class="genre">
+      <p><strong>Genres: </strong></p>
+      <div class="genres-buttons">
+        <!-- Buttons with onclick -->
+        {{genres}}
+      </div>
+    </div>
+  </div>
+</div>
