@@ -9,7 +9,7 @@
 }
 
 body {
-  background-color: #f5f5f5;
+  background-color: #faf7f0;
   display: flex;
   justify-content: center;
   align-items: center;
@@ -60,7 +60,7 @@ body {
 .card:hover .card-info {
   display: block;
   padding: 5px;
-  background-color: #fff;
+  background-color: #eeedeb;
 }
 
 header {
@@ -71,7 +71,7 @@ header {
   width: 100%;
   position: sticky;
   top: 0;
-  background-color: #fff;
+  background-color: #d8d2c2;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   z-index: 100;
 }
@@ -83,6 +83,7 @@ header {
 
 .card-info {
   width: 100%;
+  background-color: #eeedeb;
   z-index: 1;
   display: none;
   position: absolute;
@@ -131,6 +132,7 @@ header {
   max-width: 200px;
   min-width: 100px;
   margin: 10px;
+  background-color: #d4c9be;
 }
 
 .genre-select option {
@@ -154,8 +156,10 @@ header {
   border-radius: 5px;
   border: 1px solid #333;
   margin: 0 10px;
+  background-color: #d4c9be;
   min-width: 200px;
   max-width: 400px;
+  font-size: large;
 }
 
 .genres-buttons {

@@ -2,12 +2,18 @@
   width: 100%;
   height: auto;
   min-height: max-content;
-  background-color: #fff;
+  background-color: #eeedeb;
   border-radius: 10px;
   box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
   transition: all 0.5s ease;
   margin: 10px 0;
   padding: 10px;
+}
+
+.schedule-card:hover {
+  box-shadow: 0 0 20px rgba(0, 0, 0, 0.2);
+  transform: scale(1.02);
+  cursor: pointer;
 }
 
 @media (max-width: 1024px) {
